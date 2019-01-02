@@ -191,6 +191,5 @@ alias unproxy='unset http_proxy;unset https_proxy'
 #export PATH=$PATH:/opt/app/gsm/last/arm_toolchain/install/bin
 export PATH=$PATH:/opt/app/gsm/2016/gnu-arm-installer/install/bin
 
-imsi=460025170289315
 
 #ulimit -c unlimited
