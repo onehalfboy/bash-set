@@ -2,6 +2,13 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Tell ls to be colourful
+export CLICOLOR=1
+export LSCOLORS=Exfxcxdxbxegedabagacad
+ 
+# Tell grep to highlight matches
+export GREP_OPTIONS='--color=auto'
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
